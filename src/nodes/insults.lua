@@ -23,6 +23,11 @@ return {
   rich = {'You are a flawed pretty boy who thinks that by being as successful as can be he might be able to win back the heart of a mother who never loved him in the first place.'},
   garrett = {'You are a weak-willed individual who will never amount to anything except the most accidents in a single day.'},
   vicki = {'You are a cookie-cutter who has no other distinguishing features than the thick slabs of fat you call legs.'},
+  bruno = {},
+  matt = {},
+  matthew = {},
+  max = {},
+  pieter = {},
   misc = {},
 }
 

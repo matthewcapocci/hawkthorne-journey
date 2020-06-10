@@ -23,7 +23,7 @@ function flyin:enter( prev )
   self.current = character.current()
 
   -- Only include greendale seven
-  for _, name in pairs({"abed", "annie", "jeff", "pierce", "troy", "britta", "shirley"}) do
+  for _, name in pairs({"bruno", "matt", "matthew", "max", "pieter", "troy", "abed"}) do
     if name ~= self.current.name then
       table.insert(self.characterorder, name)
     end

@@ -147,7 +147,7 @@ function state:enter(previous)
 
   fonts.set('big')
 
-  sound.playMusic("overworld")
+  sound.playMusic("thousand-miles")
 
   self.stand = anim8.newAnimation('once', g(owd, 1), 1)
   self.walk = anim8.newAnimation('loop', g(owd, 2, owd, 3), 0.2)

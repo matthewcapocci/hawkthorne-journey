@@ -1,0 +1,14 @@
+{
+  "costumes": [
+    { "category": "base", "name": "Matt Lai", "sheet": "base", "ow": 1 }
+  ],
+  "name": "matt", 
+  "bbox": {
+    "width": 14,
+    "height": 41,
+    "duck_height": 20,
+    "x": 17,
+    "y": 7
+  },
+  "offset": 5
+}

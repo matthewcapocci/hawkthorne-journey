@@ -6,6 +6,10 @@ local middle = require 'hawk/middleclass'
 
 local camera = require 'camera'
 local dialog = require 'dialog'
+local Player = require 'player'
+
+Player = Player.factory()
+
 
 local Scene = {}
 Scene.__index = Scene
@@ -114,6 +118,7 @@ function Scene:start(player)
     "Nevertheless, I designed this game to be played upon my death by you and whatever cabal of fruits, junkies, and sluts you call your friends.",
     "Only one player can win... the first to reach my throne inside Castle Hawkthorne. Their reward, Pierce, will be your inheritance.",
     "So you see, Pierce, turns out you were right. Video games are important. Ha Ha Ha ! WORST SON EVER!",
+	"Also fuck you "  .. Player.character.name:gsub("^%l", string.upper) .. "!",
   }
 
   self.dialog = dialog.new("Welcome to Hawkthorne.", function()
