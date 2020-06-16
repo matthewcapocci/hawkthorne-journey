@@ -3,7 +3,7 @@ local sound = require 'vendor/TEsound'
 
 return {
   name = 'cat',
-  die_sound = 'meow',
+  die_sound = 'wilhelm',
   position_offset = { x = 0, y = 0 },
   height = 20,
   width = 40,
