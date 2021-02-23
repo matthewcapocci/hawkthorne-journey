@@ -178,7 +178,7 @@ function state:keypressed(button, player)
           betDelta = -(self.currentBet%10) -- subtract out the portion that is not part of the standard increment
         end
       elseif self.currentBet > 20 then
-        if self.curentBet%5 == 0 then
+        if self.currentBet%5 == 0 then
           betDelta = -5
         else
           betDelta = -(self.currentBet%5) -- subtract out the portion that is not part of the standard increment
